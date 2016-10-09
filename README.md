@@ -152,24 +152,16 @@
 *    第 0010 题：使用 Python 生成类似于下图中的字母验证码图片 ![img](http://7pn53u.com1.z0.glb.clouddn.com/687474703a2f2f692e696d6775722e636f6d2f615668626567562e6a7067.jpg)
 *    第 0011 题：敏感词文本文件 filtered_words.txt，里面的内容为以下内容，当用户输入敏感词语时，则打印出 Freedom，否则打印出 Human Rights `北京 程序员 公务员 领导 牛比 牛逼 你娘 你妈 love sex jiangge `
 *    第 0012 题：敏感词文本文件 filtered_words.txt，里面的内容 和 0011题一样，当用户输入敏感词语，则用 星号 * 替换，例如当用户输入「北京是个好城市」，则变成「**是个好城市」。
-*    第 0013 题：用 Python 写一个爬图片的程序，爬这个[链接里的日本妹子图片][5] :-)  [参考代码][6]
+*    第 0013 题：用 Python 写一个爬图片的程序，爬这个[链接里的日本妹子图片](http://tieba.baidu.com/p/2166231880) :-)  [参考代码](http://www.v2ex.com/t/61686)
 *    第 0014 题：纯文本文件 student.txt为学生信息, 里面的内容（包括花括号）如下所示 `{     "1":["张三",150,120,100],     "2":["李四",90,99,95],     "3":["王五",60,66,68] } `,请将上述内容写到student.xls,如下图所示 ![](http://7pn53u.com1.z0.glb.clouddn.com/687474703a2f2f692e696d6775722e636f6d2f6e50446c706d652e6a7067.jpg)
 *    第 0015 题：纯文本文件 city.txt为城市信息, 里面的内容（包括花括号）如下所示 `{     "1" : "上海",     "2" : "北京",     "3" : "成都" } `,请将上述内容写到city.xls文件中，如下图所示
 ![](http://7pn53u.com1.z0.glb.clouddn.com/687474703a2f2f692e696d6775722e636f6d2f724f4862557a672e706e67.png)
 *    第 0016 题：纯文本文件 numbers.txt, 里面的内容（包括方括号）如下所示：`[     [1, 82, 65535],      [20, 90, 13],     [26, 809, 1024] ] `,请将上述内容写到number.xls文件中，如下图所示：![](http://7pn53u.com1.z0.glb.clouddn.com/687474703a2f2f692e696d6775722e636f6d2f69757a305062762e706e67.png)
-*    第 0017 题：将第 0014 题中的 student.xls 文件中的内容写到 student.xml 文件中，如下所示： `<?xml version="1.0" encoding="UTF-8"?> <root> <students> <!--      学生信息表     "id" : [名字, 数学, 语文, 英文] --> {     "1" : ["张三", 150, 120, 100],     "2" : ["李四", 90, 99, 95],     "3" : ["王五", 60, 66, 68] } </students> </root> ` [阅读材料][4]腾讯游戏开发  xml和excel相互转换
+*    第 0017 题：将第 0014 题中的 student.xls 文件中的内容写到 student.xml 文件中，如下所示： `<?xml version="1.0" encoding="UTF-8"?> <root> <students> <!--      学生信息表     "id" : [名字, 数学, 语文, 英文] --> {     "1" : ["张三", 150, 120, 100],     "2" : ["李四", 90, 99, 95],     "3" : ["王五", 60, 66, 68] } </students> </root> ` [阅读材料](http://www.cnblogs.com/skynet/archive/2013/05/06/3063245.html)腾讯游戏开发  xml和excel相互转换
 *    第 0018 题：将 第 0015 题中的 city.xls 文件中的内容写到 city.xml 文件中，如下所示：`<?xmlversion="1.0" encoding="UTF-8"?> <root> <citys> <!--      城市信息 --> {     "1" : "上海",     "2" : "北京",     "3" : "成都" } </citys> </root> `
 *    第 0019 题：将 第 0016 题中的 numbers.xls 文件中的内容写到 numbers.xml 文件中，如下所示：`<?xml version="1.0" encoding="UTF-8"?> <root> <numbers> <!--      数字信息 -->  [     [1, 82, 65535],     [20, 90, 13],     [26, 809, 1024] ]  </numbers> </root> `
-*    第 0020 题：[登陆中国联通网上营业厅][7]后选择「自助服务」 --> 「详单查询」，然后选择你要查询的时间段，点击「查询」按钮，查询结果页面的最下方，点击「导出」，就会生成类似于 2014年10月01日～2014年10月31日通话详单.xls 文件。写代码，对每月通话时间做个统计。
+*    第 0020 题：[登陆中国联通网上营业厅](http://iservice.10010.com/index_.html)后选择「自助服务」 --> 「详单查询」，然后选择你要查询的时间段，点击「查询」按钮，查询结果页面的最下方，点击「导出」，就会生成类似于 2014年10月01日～2014年10月31日通话详单.xls 文件。写代码，对每月通话时间做个统计。
 *    第 0021 题：通常，登陆某个网站或者 APP，需要使用用户名和密码。密码是如何加密后存储起来的呢？请使用 Python 对密码加密。
-阅读资料[用户密码的存储与 Python 示例][1]
-阅读资料[Hashing Strings with Python][2]
-阅读资料[Python's safest method to store and retrieve passwords from a database][3]
-
-[1]: http://zhuoqiang.me/password-storage-and-python-example.html
-[2]: http://www.pythoncentral.io/hashing-strings-with-python/
-[3]: http://stackoverflow.com/questions/2572099/pythons-safest-method-to-store-and-retrieve-passwords-from-a-database
-[4]: http://www.cnblogs.com/skynet/archive/2013/05/06/3063245.html
-[5]: http://tieba.baidu.com/p/2166231880
-[6]: http://www.v2ex.com/t/61686
-[7]: http://iservice.10010.com/index_.html
+阅读资料[用户密码的存储与 Python 示例](http://zhuoqiang.me/password-storage-and-python-example.html)
+阅读资料[Hashing Strings with Python](http://www.pythoncentral.io/hashing-strings-with-python/)
+阅读资料[Python's safest method to store and retrieve passwords from a database](http://stackoverflow.com/questions/2572099/pythons-safest-method-to-store-and-retrieve-passwords-from-a-database)
