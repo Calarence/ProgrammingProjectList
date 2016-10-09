@@ -157,11 +157,11 @@
 *    第 0015 题：纯文本文件 city.txt为城市信息, 里面的内容（包括花括号）如下所示 `{     "1" : "上海",     "2" : "北京",     "3" : "成都" } `,请将上述内容写到city.xls文件中，如下图所示
 ![](http://7pn53u.com1.z0.glb.clouddn.com/687474703a2f2f692e696d6775722e636f6d2f724f4862557a672e706e67.png)
 *    第 0016 题：纯文本文件 numbers.txt, 里面的内容（包括方括号）如下所示：`[     [1, 82, 65535],      [20, 90, 13],     [26, 809, 1024] ] `,请将上述内容写到number.xls文件中，如下图所示：![](http://7pn53u.com1.z0.glb.clouddn.com/687474703a2f2f692e696d6775722e636f6d2f69757a305062762e706e67.png)
-*    第 0017 题：将第 0014 题中的 student.xls 文件中的内容写到 student.xml 文件中，如下所示： `<?xml version="1.0" encoding="UTF-8"?> <root> <students> <!--      学生信息表     "id" : [名字, 数学, 语文, 英文] --> {     "1" : ["张三", 150, 120, 100],     "2" : ["李四", 90, 99, 95],     "3" : ["王五", 60, 66, 68] } </students> </root> ` ![阅读材料](http://www.cnblogs.com/skynet/archive/2013/05/06/3063245.html)腾讯游戏开发  xml和excel相互转换
+*    第 0017 题：将第 0014 题中的 student.xls 文件中的内容写到 student.xml 文件中，如下所示： `<?xml version="1.0" encoding="UTF-8"?> <root> <students> <!--      学生信息表     "id" : [名字, 数学, 语文, 英文] --> {     "1" : ["张三", 150, 120, 100],     "2" : ["李四", 90, 99, 95],     "3" : ["王五", 60, 66, 68] } </students> </root> ` [阅读材料](http://www.cnblogs.com/skynet/archive/2013/05/06/3063245.html)腾讯游戏开发  xml和excel相互转换
 *    第 0018 题：将 第 0015 题中的 city.xls 文件中的内容写到 city.xml 文件中，如下所示：`<?xmlversion="1.0" encoding="UTF-8"?> <root> <citys> <!--      城市信息 --> {     "1" : "上海",     "2" : "北京",     "3" : "成都" } </citys> </root> `
 *    第 0019 题：将 第 0016 题中的 numbers.xls 文件中的内容写到 numbers.xml 文件中，如下所示：`<?xml version="1.0" encoding="UTF-8"?> <root> <numbers> <!--      数字信息 -->  [     [1, 82, 65535],     [20, 90, 13],     [26, 809, 1024] ]  </numbers> </root> `
 *    第 0020 题：![登陆中国联通网上营业厅](http://iservice.10010.com/index_.html)后选择「自助服务」 --> 「详单查询」，然后选择你要查询的时间段，点击「查询」按钮，查询结果页面的最下方，点击「导出」，就会生成类似于 2014年10月01日～2014年10月31日通话详单.xls 文件。写代码，对每月通话时间做个统计。
 *    第 0021 题：通常，登陆某个网站或者 APP，需要使用用户名和密码。密码是如何加密后存储起来的呢？请使用 Python 对密码加密。
-阅读资料![用户密码的存储与 Python 示例](http://zhuoqiang.me/password-storage-and-python-example.html)
-阅读资料![Hashing Strings with Python](http://www.pythoncentral.io/hashing-strings-with-python/)
-阅读资料![Python's safest method to store and retrieve passwords from a database](http://stackoverflow.com/questions/2572099/pythons-safest-method-to-store-and-retrieve-passwords-from-a-database)
+阅读资料[用户密码的存储与 Python 示例](http://zhuoqiang.me/password-storage-and-python-example.html)
+阅读资料[Hashing Strings with Python](http://www.pythoncentral.io/hashing-strings-with-python/)
+阅读资料[Python's safest method to store and retrieve passwords from a database](http://stackoverflow.com/questions/2572099/pythons-safest-method-to-store-and-retrieve-passwords-from-a-database)
